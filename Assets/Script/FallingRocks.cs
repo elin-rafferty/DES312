@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FallingRocks : MonoBehaviour
 {
-    public float gravity = 5.0f;
+    public float gravity = 2.0f;
 
     private void Update()
     {
