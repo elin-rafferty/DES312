@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,12 +12,11 @@ public class Stamina : MonoBehaviour
     public float stamina;
     float maxStamina;
     public float gravity = 20.0f;
-    private float currentGravity;
+
 
     public Slider staminaSlider;
-    public float dValue;
+    public float dValue = 10f;
 
-    private object collision;
 
     // Start is called before the first frame update
     void Start()
@@ -29,14 +29,32 @@ public class Stamina : MonoBehaviour
     void Update()
     {
         {
-            if (Input.GetKey(KeyCode.W) || (Input.GetKey(KeyCode.A) || (Input.GetKey(KeyCode.S) || (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.D)))))
+            if (Input.GetKey(KeyCode.W) || (Input.GetKey(KeyCode.A) || (Input.GetKey(KeyCode.S) ||  Input.GetKey(KeyCode.D))))
                 DecreaseEnergy();
             else if (stamina != maxStamina)
                 IncreaseEnergy();
 
             staminaSlider.value = stamina;
         }
+        Jump();
 
+    }
+
+    private void Jump()
+    {
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+                DecreaseEnergyJump();
+        }
+
+        staminaSlider.value = stamina;
+
+    }
+
+    private void DecreaseEnergyJump()
+    {
+        if (stamina != 0)
+            stamina -= 50f; 
     }
 
     public void Collision(Collision collision)
@@ -57,7 +75,8 @@ public class Stamina : MonoBehaviour
     private void JumpDecreaseEnergy()
     {
         if (stamina != 0)
-            stamina -= dValue * Time.deltaTime * Time.deltaTime;
+            stamina -= dValue * Time.deltaTime;
+
     }
 
     private void IncreaseEnergy()

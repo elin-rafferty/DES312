@@ -658,7 +658,7 @@ Transform:
   m_GameObject: {fileID: 125601681}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7005744, z: -0, w: 0.7135794}
-  m_LocalPosition: {x: -12.23, y: 3.09, z: -0.56}
+  m_LocalPosition: {x: -15.43, y: 3.09, z: -0.62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -881,7 +881,7 @@ GameObject:
   - component: {fileID: 188551233}
   - component: {fileID: 188551235}
   - component: {fileID: 188551234}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: jumpBoost
   m_TagString: jumpBoost
   m_Icon: {fileID: 0}
@@ -1295,7 +1295,7 @@ GameObject:
   - component: {fileID: 326152708}
   - component: {fileID: 326152707}
   - component: {fileID: 326152706}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Cube
   m_TagString: jumpBoost
   m_Icon: {fileID: 0}
@@ -1400,7 +1400,7 @@ GameObject:
   - component: {fileID: 370263677}
   - component: {fileID: 370263676}
   - component: {fileID: 370263675}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Cube
   m_TagString: jumpBoost
   m_Icon: {fileID: 0}
@@ -2655,7 +2655,7 @@ GameObject:
   - component: {fileID: 1036072830}
   - component: {fileID: 1036072829}
   - component: {fileID: 1036072828}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Cube
   m_TagString: jumpBoost
   m_Icon: {fileID: 0}
@@ -3066,7 +3066,7 @@ GameObject:
   - component: {fileID: 1477112061}
   - component: {fileID: 1477112060}
   - component: {fileID: 1477112059}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Cube
   m_TagString: jumpBoost
   m_Icon: {fileID: 0}
@@ -3625,7 +3625,7 @@ GameObject:
   - component: {fileID: 1779457326}
   - component: {fileID: 1779457325}
   - component: {fileID: 1779457324}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: jumpBoost (2)
   m_TagString: jumpBoost
   m_Icon: {fileID: 0}
@@ -3815,7 +3815,6 @@ GameObject:
   - component: {fileID: 1890809763}
   - component: {fileID: 1890809765}
   - component: {fileID: 1890809766}
-  - component: {fileID: 1890809767}
   - component: {fileID: 1890809768}
   m_Layer: 0
   m_Name: Player
@@ -3856,19 +3855,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750f03c7416e6b948b2d372bb5198f0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jump: {x: 0, y: 0, z: 0}
-  jumpForce: 10
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
   groundCheckPos: {fileID: 191944043}
   jumpLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 384
+  jumpBoostLayer:
+    serializedVersion: 2
+    m_Bits: 256
   jumpCheckPos: {fileID: 517704228}
-  Ground: 1
+  jumpForce: 5
+  jumpBoostForce: 20
   speed: 2
-  currentMoveSpeed: 0
   gravity: 20
   friction: 6
   character: {fileID: 1890809759}
@@ -3932,10 +3932,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a091864498ac86a42ab774ece3da0e9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stamina: 20
+  stamina: 100
   gravity: 20
   staminaSlider: {fileID: 208859823}
-  dValue: 5
+  dValue: 10
 --- !u!114 &1890809766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3951,22 +3951,6 @@ MonoBehaviour:
   cam1: {fileID: 2081247072}
   cam2: {fileID: 125601681}
   time: 5
---- !u!114 &1890809767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890809759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a091864498ac86a42ab774ece3da0e9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stamina: 20
-  gravity: 20
-  staminaSlider: {fileID: 1098717940}
-  dValue: 5
 --- !u!54 &1890809768
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4005,7 +3989,7 @@ GameObject:
   - component: {fileID: 2023289739}
   - component: {fileID: 2023289738}
   - component: {fileID: 2023289737}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: jumpBoost (1)
   m_TagString: jumpBoost
   m_Icon: {fileID: 0}
@@ -4087,7 +4071,7 @@ GameObject:
   - component: {fileID: 2039556604}
   - component: {fileID: 2039556603}
   - component: {fileID: 2039556602}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: jumpBoost (3)
   m_TagString: jumpBoost
   m_Icon: {fileID: 0}

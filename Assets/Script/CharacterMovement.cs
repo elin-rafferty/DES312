@@ -11,20 +11,24 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    public Vector3 jump;
-    public float jumpForce = 8.0f;
-    Rigidbody rb;
+    [Header("Refrences")]
     public LayerMask groundLayer;
+    Rigidbody rb;
     public Transform groundCheckPos;
-
     public LayerMask jumpLayer;
+    public LayerMask jumpBoostLayer;
     public Transform jumpCheckPos;
 
 
-    public bool Ground;
+    private Vector3 jump = Vector3.up;
+    [Header("Movement")]
+    public float jumpForce = 8.0f;
+    public float jumpBoostForce = 8.0f;
+
+    private bool Ground;
 
     public float speed = 2.0f;
-    public float currentMoveSpeed;
+    private float currentMoveSpeed;
 
 
     public float gravity = 20.0f;
@@ -38,7 +42,7 @@ public class CharacterMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        jump = new Vector3(0.0f, 2.0f, 0.0f);
+   
         currentMoveSpeed = speed;
     }
 
@@ -46,19 +50,7 @@ public class CharacterMovement : MonoBehaviour
   
     public GameObject character;
 
-    void OnCollision(Collider collision)
-    {
-        if (collision.gameObject.tag == "Ground")
-        {
-            Ground = true;
-            Debug.Log("Grounded");
-        }
-        else
-        {
-            Ground = false;
-            Debug.Log("Not Grounded!");
-        }
-    }
+ 
 
     void Update()
     {
@@ -79,30 +71,30 @@ public class CharacterMovement : MonoBehaviour
         {
             transform.position += Vector3.back * speed * Time.deltaTime;
         }
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded() && !IsOnJumpBoost())
         {
 
             rb.AddForce(jump * jumpForce, ForceMode.Impulse);
         }
-
-
-
-    }
-
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "jumpBoost")
-            {
-                jumpForce = 50f;
-                Ground = true;
-                    if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
-                    {
-
-                        rb.AddForce(jump * jumpForce, ForceMode.Impulse);
-                    }
+        else if ((Input.GetKeyDown(KeyCode.Space) && IsGrounded() && IsOnJumpBoost()))
+        {
+            rb.AddForce(jump * jumpBoostForce, ForceMode.Impulse);
         }
-        
     }
+
+    //void OnCollisionEnter(Collision collision)
+    //{
+    //    if (collision.gameObject.tag == "jumpBoost")
+    //        {
+    //            jumpForce = 50f;
+    //                if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+    //                {
+
+    //                    rb.AddForce(jump * jumpForce, ForceMode.Impulse);
+    //                }
+    //    }
+        
+    //}
 
     private bool IsGrounded()
     {
@@ -115,7 +107,17 @@ public class CharacterMovement : MonoBehaviour
             return false;
         }
     }
-
+    private bool IsOnJumpBoost()
+    {
+        if ( (Physics.CheckSphere(jumpCheckPos.position, 0.4f, jumpBoostLayer)))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 
 
     public MovementState state;
