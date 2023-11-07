@@ -54,16 +54,16 @@ public class Stamina : MonoBehaviour
     private void DecreaseEnergyJump()
     {
         if (stamina != 0)
-            stamina -= 50f; 
+            stamina -= 15f; 
     }
 
     public void Collision(Collision collision)
     {
         if (collision.gameObject.tag == "jumpBoost")
             if (Input.GetKey(KeyCode.Space))
-        {
-            JumpDecreaseEnergy();
-        }
+            {
+                JumpDecreaseEnergy();
+            }
     }
 
     private void DecreaseEnergy()
@@ -75,7 +75,7 @@ public class Stamina : MonoBehaviour
     private void JumpDecreaseEnergy()
     {
         if (stamina != 0)
-            stamina -= dValue * Time.deltaTime;
+            stamina -= 30f;
 
     }
 
