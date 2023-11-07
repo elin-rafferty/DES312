@@ -9,6 +9,7 @@ TagManager:
   - jumpBoost
   - Ground
   - Ledge
+  - Rocks Falling
   layers:
   - Default
   - TransparentFX
