@@ -13,6 +13,11 @@ public class FallingRocks : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
+    }
+
+    private void Trigger(Collider other)
+    {
+        print("slay");
     }
 }

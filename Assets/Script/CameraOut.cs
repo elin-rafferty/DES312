@@ -8,7 +8,7 @@ public class CameraOut : MonoBehaviour
     public GameObject cam2;
 
     private bool cam1Active = true;
-    private bool counter = false;
+
 
     public float time;
 
