@@ -10,6 +10,8 @@ TagManager:
   - Ground
   - Ledge
   - Rocks Falling
+  - Trigger
+  - Cliff
   layers:
   - Default
   - TransparentFX

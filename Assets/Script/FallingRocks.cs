@@ -4,20 +4,13 @@ using UnityEngine;
 
 public class FallingRocks : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float gravity = 5.0f;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-       
-    }
 
-    private void Trigger(Collider other)
-    {
-        print("slay");
     }
+          
 }
+
+

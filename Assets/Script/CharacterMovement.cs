@@ -153,7 +153,14 @@ public class CharacterMovement : MonoBehaviour
     {
         if (restricted) return;
     }
-    
+
+    private void Collision(Collider col)
+    {
+        if (col.gameObject.tag == "Trigger")
+        {
+            Debug.Log("working");
+        }
+    }
 
 }
 

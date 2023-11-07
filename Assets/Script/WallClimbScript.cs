@@ -44,8 +44,6 @@ public class WallClimbScript : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(character.transform.position, character.transform.forward, out hit, range))
         {
-            Debug.Log(hit.transform.name);
-
             Target target = hit.transform.GetComponent<Target>();
             if (target != null)
             {
