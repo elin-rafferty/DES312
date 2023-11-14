@@ -6,6 +6,7 @@ using System.Diagnostics.CodeAnalysis;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 //https://learnictnow.com/topics/game-design/unity/moving-a-player-gameobject-with-wasd/
 //https://discussions.unity.com/t/how-to-move-the-character-using-wasd/190362/4
@@ -19,13 +20,18 @@ public class CharacterMovement : MonoBehaviour
     public LayerMask jumpLayer;
     public LayerMask jumpBoostLayer;
     public Transform jumpCheckPos;
+    public LayerMask badLedgeLayer;
 
 
     private Vector3 jump = Vector3.up;
     [Header("Movement")]
     public float jumpForce = 8.0f;
     public float jumpBoostForce = 8.0f;
-
+    public float stamina;
+    public float maxStamina;
+    public float minStamina;
+    private bool isMoving; 
+    public Slider staminaSlider;
     private bool Ground;
 
     public float speed = 2.0f;
@@ -45,6 +51,12 @@ public class CharacterMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
    
         currentMoveSpeed = speed;
+
+        stamina = maxStamina;
+        staminaSlider.maxValue = maxStamina;
+
+
+
     }
 
     // Update is called once per frame
@@ -56,31 +68,65 @@ public class CharacterMovement : MonoBehaviour
     void Update()
     {
 
+        staminaSlider.value = stamina; //fix this
+
         if (Input.GetKey(KeyCode.W))
         {
             transform.position += Vector3.right * speed * Time.deltaTime;
+            isMoving = true;
         }
         if (Input.GetKey(KeyCode.S))
         {
             transform.position += Vector3.left * speed * Time.deltaTime;
+            isMoving = true;
         }
         if (Input.GetKey(KeyCode.A))
         {
             transform.position += Vector3.forward * speed * Time.deltaTime;
+            isMoving = true;
         }
         if (Input.GetKey(KeyCode.D))
         {
             transform.position += Vector3.back * speed * Time.deltaTime;
+            isMoving = true;
         }
+        if (!Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.W))
+        {
+            isMoving = false;
+        }
+        
+
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded() && !IsOnJumpBoost())
         {
-
             rb.AddForce(jump * jumpForce, ForceMode.Impulse);
+            stamina -= 20;
         }
         else if ((Input.GetKeyDown(KeyCode.Space) && IsGrounded() && IsOnJumpBoost()))
         {
             rb.AddForce(jump * jumpBoostForce, ForceMode.Impulse);
+            stamina -= 40;
         }
+        
+        if (isMoving)
+        {
+           stamina -= Time.deltaTime * 10;
+        }
+        
+        if (IsOnBadLedge())
+        {
+            stamina -= Time.deltaTime * 10;
+        }
+
+        stamina += Time.deltaTime * 5;
+        if (stamina > maxStamina)
+        {
+            stamina = maxStamina;
+        }
+        else if (stamina <= 0)
+        {
+            stamina = minStamina;
+        }
+
     }
 
     //void OnCollisionEnter(Collision collision)
@@ -111,6 +157,17 @@ public class CharacterMovement : MonoBehaviour
     private bool IsOnJumpBoost()
     {
         if ( (Physics.CheckSphere(jumpCheckPos.position, 0.4f, jumpBoostLayer)))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    private bool IsOnBadLedge()
+    {
+        if ((Physics.CheckSphere(jumpCheckPos.position, 0.4f, badLedgeLayer)))
         {
             return true;
         }

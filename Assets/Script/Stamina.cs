@@ -17,28 +17,42 @@ public class Stamina : MonoBehaviour
     public Slider staminaSlider;
     public float dValue = 10f;
 
+    public bool badLedge = false;
+
 
     // Start is called before the first frame update
     void Start()
     {
         maxStamina = stamina;
         staminaSlider.maxValue = maxStamina;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        {
-            if (Input.GetKey(KeyCode.W) || (Input.GetKey(KeyCode.A) || (Input.GetKey(KeyCode.S) ||  Input.GetKey(KeyCode.D))))
-                DecreaseEnergy();
-            else if (stamina != maxStamina)
-                IncreaseEnergy();
-
-            staminaSlider.value = stamina;
-        }
-        Jump();
+        //movement();
+       // Jump();
         staminaSlider.value = stamina;
+        if (badLedge == true)
+        {
+            LedgeDecreaseEnergy();
+        }
     }
+
+  
+
+    //private void movement()
+    //{
+    //    {
+    //        if (input.getkey(keycode.w) || (input.getkey(keycode.a) || (input.getkey(keycode.s) || input.getkey(keycode.d))))
+    //            decreaseenergy();
+    //        else if (stamina != maxstamina)
+    //            increaseenergy();
+             
+    //        staminaslider.value = stamina;
+    //    }
+    //}
 
     private void Jump()
     {
@@ -57,16 +71,7 @@ public class Stamina : MonoBehaviour
             stamina -= 15f; 
     }
 
-    public void Collision(Collision collision)
-    {
-        if (collision.gameObject.tag == "jumpBoost")
-            if (Input.GetKey(KeyCode.Space))
-            {
-                JumpDecreaseEnergy();
-            }
-    }
-
-    private void DecreaseEnergy()
+    public void DecreaseEnergy()
     {
         if(stamina != 0)
             stamina -= dValue * Time.deltaTime; 
@@ -75,24 +80,21 @@ public class Stamina : MonoBehaviour
     private void JumpDecreaseEnergy()
     {
         if (stamina != 0)
-            stamina -= 40f;
+            stamina -= 0f;
+    }
 
+    private void LedgeDecreaseEnergy()
+    {
+        if (stamina != 0)
+            stamina -= dValue * Time.deltaTime * 2f;
+    }
+    public void ChangeStamina(float staminaAmount)
+    {
+        stamina += staminaAmount * Time.deltaTime;
     }
 
     private void IncreaseEnergy()
     {
-            stamina += dValue * Time.deltaTime * 1f;
-        
+            stamina += dValue * Time.deltaTime * 1f;     
     }
-
-    private void Dead()
-    {
-        if (stamina == 0)
-        {
-
-        }
-            
-    }
-
- 
 }

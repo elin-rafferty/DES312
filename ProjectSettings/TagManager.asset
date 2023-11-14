@@ -12,6 +12,7 @@ TagManager:
   - Rocks Falling
   - Trigger
   - Cliff
+  - BadLedge
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - Jump
   - JumpBoost
   - nature
-  - 
+  - BadLedge
   - 
   - 
   - 

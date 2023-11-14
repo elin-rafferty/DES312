@@ -11,7 +11,7 @@ public class WallClimbScript : MonoBehaviour
     public bool TouchWall = false;
     public float ClimbSpeed = 7f;
     public GameObject character;
-    public Stamina staminaScript;
+    public CharacterMovement movementScript;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class WallClimbScript : MonoBehaviour
     {
         Shoot();
 
-        if (Input.GetKey(KeyCode.W) & TouchWall == true && staminaScript.stamina > 0)
+        if (Input.GetKey(KeyCode.W) & TouchWall == true && movementScript.stamina > 0)
         {
             transform.position += Vector3.up * Time.deltaTime * ClimbSpeed;
             GetComponent<Rigidbody>().isKinematic = true;
