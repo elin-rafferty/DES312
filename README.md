@@ -1,7 +1,7 @@
 # DES312
 DES312 Term one project
 
-This is my game called ***.
+This is my game called Uber Boost.
 It is a climbing game with core mechanics of a mix of jump boost, stamina, camera outward zoom, and timer.
 You have limited stamina that regenerates if you don't move. You have blue ledges up the wall to allow you someone to stand and increase your stamina.
 You can also stand on the purple blocks and if you jump on them you will gain a jump boost, which uses up extra stamina.
