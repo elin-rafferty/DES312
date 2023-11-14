@@ -37,7 +37,7 @@ public class Stamina : MonoBehaviour
             staminaSlider.value = stamina;
         }
         Jump();
-
+        staminaSlider.value = stamina;
     }
 
     private void Jump()
@@ -75,13 +75,14 @@ public class Stamina : MonoBehaviour
     private void JumpDecreaseEnergy()
     {
         if (stamina != 0)
-            stamina -= 30f;
+            stamina -= 40f;
 
     }
 
     private void IncreaseEnergy()
     {
-            stamina += dValue * Time.deltaTime;
+            stamina += dValue * Time.deltaTime * 1f;
+        
     }
 
     private void Dead()
