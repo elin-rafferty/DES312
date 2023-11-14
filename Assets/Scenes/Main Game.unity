@@ -9318,11 +9318,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5440707293445741943, guid: 494f6d43e170e9145bc7865d243ee00b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.830217
+      value: -3.154
       objectReference: {fileID: 0}
     - target: {fileID: 5440707293445741943, guid: 494f6d43e170e9145bc7865d243ee00b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.9176567
+      value: -3.168
       objectReference: {fileID: 0}
     - target: {fileID: 5440707293445741943, guid: 494f6d43e170e9145bc7865d243ee00b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9578,7 +9578,7 @@ MonoBehaviour:
   maxStamina: 100
   minStamina: 0
   staminaSlider: {fileID: 208859823}
-  speed: 2
+  speed: 3
   gravity: 20
   friction: 6
   character: {fileID: 1890809759}
@@ -9627,7 +9627,7 @@ MonoBehaviour:
   open: 100
   range: 1
   TouchWall: 0
-  ClimbSpeed: 7
+  ClimbSpeed: 5
   character: {fileID: 941511688}
   movementScript: {fileID: 1890809761}
 --- !u!114 &1890809766

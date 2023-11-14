@@ -34,7 +34,7 @@ public class CharacterMovement : MonoBehaviour
     public Slider staminaSlider;
     private bool Ground;
 
-    public float speed = 2.0f;
+    public float speed = 3.0f;
     private float currentMoveSpeed;
 
 
@@ -109,7 +109,7 @@ public class CharacterMovement : MonoBehaviour
         
         if (isMoving)
         {
-           stamina -= Time.deltaTime * 10;
+           stamina -= Time.deltaTime * 20;
         }
         
         if (IsOnBadLedge())
