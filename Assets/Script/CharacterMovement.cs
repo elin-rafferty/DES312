@@ -5,6 +5,7 @@ using System.ComponentModel.Design;
 using System.Diagnostics.CodeAnalysis;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 //https://learnictnow.com/topics/game-design/unity/moving-a-player-gameobject-with-wasd/
 //https://discussions.unity.com/t/how-to-move-the-character-using-wasd/190362/4
@@ -161,6 +162,16 @@ public class CharacterMovement : MonoBehaviour
             Debug.Log("working");
         }
     }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Trigger")
+        {
+            SceneManager.LoadScene(sceneName: "Ending");
+        }
+
+    }
+
 
 }
 
