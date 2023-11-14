@@ -8900,7 +8900,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   jumpForce: 5
-  jumpBoostForce: 20
+  jumpBoostForce: 16
   stamina: 0
   maxStamina: 100
   minStamina: 0
@@ -8971,7 +8971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam1: {fileID: 2081247072}
   cam2: {fileID: 125601681}
-  time: 5
+  time: 8
 --- !u!54 &1890809768
 Rigidbody:
   m_ObjectHideFlags: 0
