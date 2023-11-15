@@ -47,7 +47,7 @@ public class CameraOut : MonoBehaviour
             //data.Add("CamSwitchTimes", CamSwitchTimes);
 
             //AnalyticsManager.SendCustomEvent("CameraZoomOut", data);
-wd
+
             Color c = Color.blue;
             c.a = 0.4f;
             AnalyticsManager.LogHeatmapEvent("CameraZoomOut", transform.position, c);
