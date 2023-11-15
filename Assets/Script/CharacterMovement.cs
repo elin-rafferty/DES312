@@ -67,6 +67,10 @@ public class CharacterMovement : MonoBehaviour
     void Update()
     {
 
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
+
+
         staminaSlider.value = stamina; //fix this
 
         if (Input.GetKey(KeyCode.W))
@@ -123,7 +127,7 @@ public class CharacterMovement : MonoBehaviour
             stamina -= Time.deltaTime * 10;
         }
 
-        stamina += Time.deltaTime * 10;
+        stamina += Time.deltaTime * 12;
         if (stamina > maxStamina)
         {
             stamina = maxStamina;
