@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Abertay.Analytics;
 
 public class CameraOut : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class CameraOut : MonoBehaviour
     public GameObject cam2;
 
     private bool cam1Active = true;
-
+    private int CamSwitchTimes = 0;
 
     public float time;
 
@@ -22,21 +23,7 @@ public class CameraOut : MonoBehaviour
     void Update()
     {
         CamSwitch();
-        /*
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            time -= Time.deltaTime;
-            cam1Active = !cam1Active;
-            cam1.SetActive(cam1Active);
-            cam2.SetActive(!cam1Active);
 
-            if (time <= 0f)
-            {
-                time = 5f;
-                Debug.Log("Time's up!");
-
-            }
-        }*/
     }
 
     void Counter()
@@ -54,6 +41,12 @@ public class CameraOut : MonoBehaviour
             cam1Active = !cam1Active;
             cam1.SetActive(cam1Active);
             cam2.SetActive(!cam1Active);
+            CamSwitchTimes++;
+
+            Dictionary<string, object> data = new Dictionary<string, object>();
+            data.Add("CamSwitchTimes", CamSwitchTimes);
+
+            AnalyticsManager.SendCustomEvent("Camera Zoom Out", data);
         }
         if (time <= 0f)
         {
@@ -64,6 +57,8 @@ public class CameraOut : MonoBehaviour
             cam1Active = true;
         }
         Counter();
+ 
+
     }
 }
 
