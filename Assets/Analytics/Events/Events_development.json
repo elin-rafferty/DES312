@@ -1,0 +1,152 @@
+[
+  {
+    "eventTimestamp": "15/11/2023 10:48:02",
+    "userID": "NULL",
+    "eventName": "CameraZoomOut",
+    "eventUUID": "fd874c582fab2d1602e25afc66cc6521",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "CamSwitchTimes": 1
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 10:48:03",
+    "userID": "NULL",
+    "eventName": "CameraZoomOut",
+    "eventUUID": "d9028f4195b77810ec3e5fc5a7a5b5b1",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "CamSwitchTimes": 2
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 10:48:03",
+    "userID": "NULL",
+    "eventName": "CameraZoomOut",
+    "eventUUID": "d9028f4195b77810ec3e5fc5a7a5b5b1",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "CamSwitchTimes": 3
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 10:48:04",
+    "userID": "NULL",
+    "eventName": "CameraZoomOut",
+    "eventUUID": "1657dafc2c01cc125fe74b20adc38590",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "CamSwitchTimes": 4
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 10:48:04",
+    "userID": "NULL",
+    "eventName": "CameraZoomOut",
+    "eventUUID": "1657dafc2c01cc125fe74b20adc38590",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "CamSwitchTimes": 5
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 10:53:01",
+    "userID": "NULL",
+    "eventName": "CameraZoomOut",
+    "eventUUID": "04a0169b0d2e78c2cbcb6ed61bee3f59",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "CamSwitchTimes": 1
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 10:53:06",
+    "userID": "NULL",
+    "eventName": "CameraZoomOut",
+    "eventUUID": "58f18ac0122fb5ae8888279ff7857267",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "CamSwitchTimes": 2
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 10:53:08",
+    "userID": "NULL",
+    "eventName": "CameraZoomOut",
+    "eventUUID": "c267c886a27f2eb03522407dddd60903",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "CamSwitchTimes": 3
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 10:53:09",
+    "userID": "NULL",
+    "eventName": "CameraZoomOut",
+    "eventUUID": "39e1852da90c882c029d5bb4123ac0f4",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "CamSwitchTimes": 4
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 10:55:34",
+    "userID": "NULL",
+    "eventName": "Camera Zoom Out",
+    "eventUUID": "30a523b15ac31442ddf03509a60b8027",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "CamSwitchTimes": 1
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 10:55:35",
+    "userID": "NULL",
+    "eventName": "Camera Zoom Out",
+    "eventUUID": "bfd91769fffa9cff4b0859d901306102",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "CamSwitchTimes": 2
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 10:55:35",
+    "userID": "NULL",
+    "eventName": "Camera Zoom Out",
+    "eventUUID": "bfd91769fffa9cff4b0859d901306102",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "CamSwitchTimes": 3
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 10:55:35",
+    "userID": "NULL",
+    "eventName": "Camera Zoom Out",
+    "eventUUID": "bfd91769fffa9cff4b0859d901306102",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "CamSwitchTimes": 4
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 10:55:36",
+    "userID": "NULL",
+    "eventName": "Camera Zoom Out",
+    "eventUUID": "dc7f9d8ca744e2f77cb874d856f6aeac",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "CamSwitchTimes": 5
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 10:55:36",
+    "userID": "NULL",
+    "eventName": "Camera Zoom Out",
+    "eventUUID": "dc7f9d8ca744e2f77cb874d856f6aeac",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "CamSwitchTimes": 6
+    }
+  }
+]

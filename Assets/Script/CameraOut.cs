@@ -16,7 +16,7 @@ public class CameraOut : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        AnalyticsManager.Initialise("development");
     }
 
     // Update is called once per frame
@@ -46,7 +46,7 @@ public class CameraOut : MonoBehaviour
             Dictionary<string, object> data = new Dictionary<string, object>();
             data.Add("CamSwitchTimes", CamSwitchTimes);
 
-            AnalyticsManager.SendCustomEvent("Camera Zoom Out", data);
+            AnalyticsManager.SendCustomEvent("CameraZoomOut", data);
         }
         if (time <= 0f)
         {
