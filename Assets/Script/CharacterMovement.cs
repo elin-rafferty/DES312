@@ -7,6 +7,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Abertay.Analytics;
 
 //https://learnictnow.com/topics/game-design/unity/moving-a-player-gameobject-with-wasd/
 //https://discussions.unity.com/t/how-to-move-the-character-using-wasd/190362/4
@@ -33,6 +34,7 @@ public class CharacterMovement : MonoBehaviour
     private bool isMoving; 
     public Slider staminaSlider;
     private bool Ground;
+    private int JumpBoost = 0;
 
     public float speed = 3.0f;
     private float currentMoveSpeed;
@@ -54,9 +56,6 @@ public class CharacterMovement : MonoBehaviour
 
         stamina = maxStamina;
         staminaSlider.maxValue = maxStamina;
-
-
-
     }
 
     // Update is called once per frame
@@ -105,6 +104,13 @@ public class CharacterMovement : MonoBehaviour
         {
             rb.AddForce(jump * jumpBoostForce, ForceMode.Impulse);
             stamina -= 40;
+
+            JumpBoost++;
+
+            Dictionary<string, object> data = new Dictionary<string, object>();
+            data.Add("JumpBoost", JumpBoost);
+
+            AnalyticsManager.SendCustomEvent("JumpBoostCount", data);
         }
         
         if (isMoving)
@@ -117,7 +123,7 @@ public class CharacterMovement : MonoBehaviour
             stamina -= Time.deltaTime * 10;
         }
 
-        stamina += Time.deltaTime * 5;
+        stamina += Time.deltaTime * 10;
         if (stamina > maxStamina)
         {
             stamina = maxStamina;
@@ -128,20 +134,6 @@ public class CharacterMovement : MonoBehaviour
         }
 
     }
-
-    //void OnCollisionEnter(Collision collision)
-    //{
-    //    if (collision.gameObject.tag == "jumpBoost")
-    //        {
-    //            jumpForce = 50f;
-    //                if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
-    //                {
-
-    //                    rb.AddForce(jump * jumpForce, ForceMode.Impulse);
-    //                }
-    //    }
-        
-    //}
 
     private bool IsGrounded()
     {

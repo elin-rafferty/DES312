@@ -43,10 +43,15 @@ public class CameraOut : MonoBehaviour
             cam2.SetActive(!cam1Active);
             CamSwitchTimes++;
 
-            Dictionary<string, object> data = new Dictionary<string, object>();
-            data.Add("CamSwitchTimes", CamSwitchTimes);
+            // Dictionary<string, object> data = new Dictionary<string, object>();
+            //data.Add("CamSwitchTimes", CamSwitchTimes);
 
-            AnalyticsManager.SendCustomEvent("CameraZoomOut", data);
+            //AnalyticsManager.SendCustomEvent("CameraZoomOut", data);
+wd
+            Color c = Color.blue;
+            c.a = 0.4f;
+            AnalyticsManager.LogHeatmapEvent("CameraZoomOut", transform.position, c);
+
         }
         if (time <= 0f)
         {
