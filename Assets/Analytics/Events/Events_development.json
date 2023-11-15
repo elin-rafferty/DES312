@@ -18,5 +18,65 @@
     "eventParams": {
       "JumpBoost": 2
     }
+  },
+  {
+    "eventTimestamp": "15/11/2023 13:55:03",
+    "userID": "NULL",
+    "eventName": "JumpBoostCount",
+    "eventUUID": "c082174f5b4c9c074da7c34ec17bce40",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "JumpBoost": 1
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 14:04:41",
+    "userID": "NULL",
+    "eventName": "JumpBoostCount",
+    "eventUUID": "e41ee1d5ab7cf0bd0a0d19c90447fedd",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "JumpBoost": 1
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 14:05:28",
+    "userID": "NULL",
+    "eventName": "JumpBoostCount",
+    "eventUUID": "266a42488f6d307744a978adf1a1c2ae",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "JumpBoost": 1
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 15:33:21",
+    "userID": "NULL",
+    "eventName": "JumpBoostCount",
+    "eventUUID": "421cdf195393e17ee92d7a73ce5d15ec",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "JumpBoost": 1
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 15:34:30",
+    "userID": "NULL",
+    "eventName": "JumpBoostCount",
+    "eventUUID": "760d793deaebc86a40704c667c76b4d7",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "JumpBoost": 1
+    }
+  },
+  {
+    "eventTimestamp": "15/11/2023 15:35:01",
+    "userID": "NULL",
+    "eventName": "JumpBoostCount",
+    "eventUUID": "98d214cdcdccacec2c24ce5f72f49176",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "JumpBoost": 2
+    }
   }
 ]

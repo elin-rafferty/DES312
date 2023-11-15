@@ -124,10 +124,11 @@ public class CharacterMovement : MonoBehaviour
         
         if (IsOnBadLedge())
         {
-            stamina -= Time.deltaTime * 10;
+            stamina -= Time.deltaTime * 18;
         }
 
-        stamina += Time.deltaTime * 12;
+        stamina += Time.deltaTime * 13;
+
         if (stamina > maxStamina)
         {
             stamina = maxStamina;
