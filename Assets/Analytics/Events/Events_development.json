@@ -78,5 +78,15 @@
     "eventParams": {
       "JumpBoost": 2
     }
+  },
+  {
+    "eventTimestamp": "21/11/2023 13:52:50",
+    "userID": "NULL",
+    "eventName": "JumpBoostCount",
+    "eventUUID": "018a175b1bdfdb7b91a36cb462238124",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "JumpBoost": 1
+    }
   }
 ]
