@@ -1491,7 +1491,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4848072486756740, guid: f16d978b3d1fa984d82c01d30a1fb40a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.72
+      value: 12.210968
       objectReference: {fileID: 0}
     - target: {fileID: 4848072486756740, guid: f16d978b3d1fa984d82c01d30a1fb40a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2218,7 +2218,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Avoid red ledges if you can, they decrease your stamina just standing on
-    them
+    them. Keep moving up!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2680,7 +2680,7 @@ Transform:
   m_GameObject: {fileID: 370263673}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.44, y: 0.42, z: 0.115}
+  m_LocalPosition: {x: 0.44, y: -14.3, z: 0.115}
   m_LocalScale: {x: 1.0062, y: 1.4722837, z: 0.9336822}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2961,7 +2961,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hold W and walk into wall to climb up to the top!
+  m_text: Hold W and walk into wall to climb up! Use A and D to move left and right.
+    Try climb to the ledge!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3024,7 +3025,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -43.296158, w: 0}
+  m_margin: {x: 0, y: 0, z: -230.39796, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3361,7 +3362,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 91.836, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -649.97754, y: -330.35}
+  m_AnchoredPosition: {x: -649.97754, y: -334.53015}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &492208953
@@ -3384,7 +3385,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press space to jump boost on yellow ledge!
+  m_text: Press space to jump boost on yellow ledge! Keep going up!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4391,7 +4392,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674899155}
   m_LocalRotation: {x: -0, y: 0.71834743, z: -0, w: 0.69568455}
-  m_LocalPosition: {x: 0, y: 0, z: -6.52}
+  m_LocalPosition: {x: 0, y: 0, z: -7.5}
   m_LocalScale: {x: 0.0074535883, y: 0.0074535883, z: 0.0074535883}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4422,7 +4423,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Use green ledges to gain stamina!
+  m_text: 'Use green ledges to gain stamina! Climb left and up to next ledge!
 
 '
   m_isRightToLeft: 0
@@ -9455,7 +9456,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press C to zoom your camera in and out
+  m_text: Press C to zoom your camera in and out to find next ledges to climb
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
