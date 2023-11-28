@@ -35,10 +35,11 @@ public class CharacterMovement : MonoBehaviour
     public Slider staminaSlider;
     private bool Ground;
     private int JumpBoost = 0;
+    private bool End;
+    private int NoStamina = 0;
 
     public float speed = 3.0f;
     private float currentMoveSpeed;
-
 
     public float gravity = 20.0f;
     private float currentGravity;
@@ -56,6 +57,9 @@ public class CharacterMovement : MonoBehaviour
 
         stamina = maxStamina;
         staminaSlider.maxValue = maxStamina;
+
+        AnalyticsManager.Initialise("development");
+
     }
 
     // Update is called once per frame
@@ -103,6 +107,7 @@ public class CharacterMovement : MonoBehaviour
         {
             rb.AddForce(jump * jumpForce, ForceMode.Impulse);
             stamina -= 20;
+
         }
         else if ((Input.GetKeyDown(KeyCode.Space) && IsGrounded() && IsOnJumpBoost()))
         {
@@ -115,6 +120,7 @@ public class CharacterMovement : MonoBehaviour
             data.Add("JumpBoost", JumpBoost);
 
             AnalyticsManager.SendCustomEvent("JumpBoostCount", data);
+
         }
         
         if (isMoving)
@@ -124,7 +130,9 @@ public class CharacterMovement : MonoBehaviour
         
         if (IsOnBadLedge())
         {
+
             stamina -= Time.deltaTime * 18;
+
         }
 
         stamina += Time.deltaTime * 13;
@@ -136,6 +144,10 @@ public class CharacterMovement : MonoBehaviour
         else if (stamina <= 0)
         {
             stamina = minStamina;
+            Dictionary<string, object> data = new Dictionary<string, object>();
+            data.Add("NoStamina", NoStamina);
+
+            AnalyticsManager.SendCustomEvent("NoStamina", data);
         }
 
     }
@@ -144,17 +156,20 @@ public class CharacterMovement : MonoBehaviour
     {
         if (Physics.CheckSphere(groundCheckPos.position, 0.4f, groundLayer) || (Physics.CheckSphere(jumpCheckPos.position, 0.4f, jumpLayer)))
         {
+
             return true;
         }
         else
         {
             return false;
+
         }
     }
     private bool IsOnJumpBoost()
     {
         if ( (Physics.CheckSphere(jumpCheckPos.position, 0.4f, jumpBoostLayer)))
         {
+
             return true;
         }
         else
@@ -221,6 +236,11 @@ public class CharacterMovement : MonoBehaviour
     {
         if (collision.gameObject.tag == "Trigger")
         {
+            Dictionary<string, object> data = new Dictionary<string, object>();
+            data.Add("End", End);
+
+            AnalyticsManager.SendCustomEvent("End", data);
+
             SceneManager.LoadScene(sceneName: "Ending");
         }
 
