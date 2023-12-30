@@ -1,0 +1,1632 @@
+[
+  {
+    "eventTimestamp": "30/12/2023 18:54:24",
+    "userID": "Elin",
+    "eventName": "JumpBoostCount",
+    "eventUUID": "997563a4b00ad3d8c5018d7db943dbd6",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "JumpBoost": 1
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:09",
+    "userID": "Elin",
+    "eventName": "JumpBoostCount",
+    "eventUUID": "78556478d6477cd7b9ced6cb28304bf4",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "JumpBoost": 2
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:10",
+    "userID": "Elin",
+    "eventName": "JumpBoostCount",
+    "eventUUID": "a2488e51ed09cf8afc1cab14ee270930",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "JumpBoost": 3
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:16",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "51688846cecc2b50f1e0e7d1b45e1615",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:17",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "643ccc6e43248144df34702a74670f84",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:55:39",
+    "userID": "Elin",
+    "eventName": "JumpBoostCount",
+    "eventUUID": "4ce9fb45b0b96508b84e4254a6a1b98b",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "JumpBoost": 4
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:19",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "7dcecb0044a99459af67c99edc4641c3",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:20",
+    "userID": "Elin",
+    "eventName": "NoStamina",
+    "eventUUID": "3b43aeaa1e8ccef9de12496c8fc09621",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "NoStamina": 0
+    }
+  },
+  {
+    "eventTimestamp": "30/12/2023 18:56:58",
+    "userID": "Elin",
+    "eventName": "End",
+    "eventUUID": "c81d45987d498a13c2e4fddb8ed28a75",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "End": false
+    }
+  }
+]
